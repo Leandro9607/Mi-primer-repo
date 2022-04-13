@@ -1,0 +1,181 @@
+/*  sintaxis CSS
+
+    selector {
+        propiedad: valor;
+    }
+
+    * { } este es el selector universal
+
+    . para clases
+    # para id
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Poppins:wght@200&display=swap');
+
+.bodyspecial {
+    background-color: rgb(214, 207, 207);
+}
+
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+h3 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+/* Header, Navbar e Inicio */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/pan1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    width: 80%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 130px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;  /* 0 en el top / bottom (arriba/abajo) 20px en left/right (izq/der) */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+.tituloinicio {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}    
+
+.tituloh1 {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+    padding: 70px 0;
+    margin: auto;
+}
+
+/* Nosotros */
+
+.fondonosotros {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/nosotrosmasando1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Productos */
+
+.fondopanaderia {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/panaderia1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fondopastdulce {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/pasteleria dulce.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fondopastsalada{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/pasteleriasalada.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fondoconfiteria {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/confiteria1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Contacto y Ubicacion */
+
+.formej {
+    background-image: url('/images/Formej.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.conubi {
+    background-color: rgb(161, 157, 157);
+}
+
+/* Footer */
+
+.ulfooter {
+    list-style: none;
+}
+
+
+.footerspecial {
+    background-color: rgb(63, 63, 63);
+}
+
